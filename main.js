@@ -60,6 +60,50 @@ function ham(cls){
 
     }
 }
+let currentTheme = 'light'
+function changeTheme(){
+
+    if(currentTheme === 'light'){
+        document.querySelector('body').style.backgroundColor = "#20202a"
+        spanList = document.querySelectorAll('span')
+        iconList = document.querySelectorAll('i')
+        let paragraphList = document.querySelectorAll('p')
+        let divList = document.querySelectorAll('div')
+        let linksList = document.querySelectorAll('a')
+        let mySkillsList = document.querySelectorAll('.mySkills')
+
+
+        
+
+        for (let i = 0; i < spanList.length; i++) {
+            spanList[i].style.color = "white"
+        }
+        for (let i = 0; i < iconList.length; i++) {
+            iconList[i].style.color = "white"
+        }
+        for (let i = 0; i < paragraphList.length; i++) {
+            paragraphList[i].style.color = "white"
+        }
+        for (let i = 0; i < divList.length; i++) {
+            divList[i].style.color = "white"
+            divList[i].style.borderColor = "white"
+        }
+        for (let i = 0; i < linksList.length; i++) {
+            linksList[i].style.color = "#716aec"
+        }
+        for (let i = 0; i < mySkillsList.length; i++) {
+            mySkillsList[i].style.color = "#3F3D56"
+        }
+
+        currentTheme = 'dark'
+    }
+    else{
+        document.querySelector('body').style.backgroundColor = "rgb(248, 248, 248)"
+        currentTheme = 'light'
+    }
+    
+}
+
 function closeHam(){
     links.style.display = '';
 }
