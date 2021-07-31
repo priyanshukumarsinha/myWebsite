@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #f1efef;
+}
+
 body a {
   text-decoration: none;
 }
@@ -63,10 +67,6 @@ body div.container nav ul {
           justify-content: space-between;
 }
 
-body div.container nav ul #logo {
-  color: black;
-}
-
 body div.container header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,7 +122,24 @@ body div.container header div.image img#profile {
   height: 250px;
 }
 
-body section {
-  padding-top: 20px;
+body .section1 {
+  margin-top: 50px;
+}
+
+body .section1 span {
+  font-size: 32px;
+  color: #3F3D56;
+  font-weight: bold;
+}
+
+body .section1 p {
+  color: #2F2E41;
+  padding: 20px 0 0 0;
+  font-size: 17px;
+  text-align: justify;
+}
+
+body .section1 div.image {
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -10,7 +10,7 @@ icon = hamDiv.querySelector('i');
 headerDiv = document.querySelector("header");
 DP = document.querySelector("#profile")
 hamDiv.style.display = 'none';
-
+section1Div = document.querySelector(".section1")
 headerDiv.querySelector('div').style.height = height -100+'px';
 
 function setLogoMargin(width){
@@ -88,6 +88,12 @@ function showHam(){
 
     divList[1].style.alignItems = 'center'
     sectionDiv.style.paddingTop = '30px'
+    paraList = section1Div.querySelectorAll('p')
+    section1Div.querySelector('span').style.fontSize = '20px'
+    for (let i = 0; i < paraList.length; i++) {
+        paraList[i].style.fontSize = '14px'
+    }
+
     // document.querySelector('.container').style.height = height+'px';
     document.querySelector('.container-1').style.height = height-150+'px';
     document.querySelector('.container-1').style.display = 'flex'
