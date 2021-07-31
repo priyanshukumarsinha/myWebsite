@@ -11,13 +11,20 @@ body{
     }
     div.container{
         nav{
+            a{
+                color: #3F72AF;
+            }
+            a:hover{
+                color: #112D4E;
+
+            }
             font-family: 'Fira Sans', sans-serif;
             font-size: 20px;
             display: flex;
             div.logo{
                 display: flex;
                 a{
-                    color: black;
+                    color: #112D4E;
                     font-weight: bold;
                 }
 

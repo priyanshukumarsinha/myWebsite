@@ -16,6 +16,14 @@ body div.container nav {
   display: flex;
 }
 
+body div.container nav a {
+  color: #3F72AF;
+}
+
+body div.container nav a:hover {
+  color: #112D4E;
+}
+
 body div.container nav div.logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,7 +32,7 @@ body div.container nav div.logo {
 }
 
 body div.container nav div.logo a {
-  color: black;
+  color: #112D4E;
   font-weight: bold;
 }
 
