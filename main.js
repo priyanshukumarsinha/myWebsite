@@ -81,7 +81,7 @@ function showHam(){
     spanList = sectionDiv.querySelectorAll('span')
     sectionDiv.style.textAlign = 'center';
     sectionDiv.style.width = '100%';
-    nav.style.fontSize = '10px';
+    links.style.fontSize = '10px';
 
     spanList[0].style.fontSize = '20px';
     spanList[1].style.fontSize = '10px';
