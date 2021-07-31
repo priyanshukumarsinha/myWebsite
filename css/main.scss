@@ -153,7 +153,21 @@ body{
         }
         
     }
-    
+    .section4{
+        span{
+            font-size: 32px;
+        }
+        div.content{
+            div{
+            margin-top: 10px;
+                font-size: 17px;
+                width: 100%;
+            }
+        }
+        i{
+            margin: 7px;
+        }
+    }
 }
 span.title{
     display: inline-block;
@@ -169,6 +183,15 @@ span.mySkills{
     color: #3F3D56;
     padding: 10px 20px;
     margin: 5px 20px 5px 0px;
+
+}
+
+footer{
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #cccccc;
+    font-size: 15px;
 
 }
 
@@ -196,5 +219,11 @@ span.mySkills{
         span.mySkills{
             font-size: 15px;
         }
+    }
+    div.section4{
+        span{
+            font-size: 20px;
+        }
+        
     }
   }

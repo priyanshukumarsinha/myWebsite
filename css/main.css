@@ -171,6 +171,20 @@ body .section2 div.content div div {
   border-radius: 7px;
 }
 
+body .section4 span {
+  font-size: 32px;
+}
+
+body .section4 div.content div {
+  margin-top: 10px;
+  font-size: 17px;
+  width: 100%;
+}
+
+body .section4 i {
+  margin: 7px;
+}
+
 span.title {
   display: inline-block;
   font-size: 32px;
@@ -185,6 +199,14 @@ span.mySkills {
   color: #3F3D56;
   padding: 10px 20px;
   margin: 5px 20px 5px 0px;
+}
+
+footer {
+  padding: 10px 0;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #cccccc;
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 781px) {
@@ -204,6 +226,9 @@ span.mySkills {
   }
   div.section3 span.mySkills {
     font-size: 15px;
+  }
+  div.section4 span {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */
