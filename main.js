@@ -74,12 +74,13 @@ function showHam(){
     links.style.textAlign = 'center';
     li = links.querySelector('ul').querySelectorAll('li')
     DP.style.height = '180px'
-    // headerDiv.style.display = 'block';
     headerDiv.style.flexDirection = 'column-reverse';
-
     divList = headerDiv.querySelectorAll('div');
+    divList[0].querySelector('section').style.marginTop = '0';
+
     for (let i = 0; i < divList.length; i++) {
         divList[i].style.width= '100%'
+
         
     }
     for (let i = 0; i < li.length; i++) {
