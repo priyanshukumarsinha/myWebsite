@@ -241,5 +241,8 @@ footer {
   div.section4 img {
     height: 150px;
   }
+  footer {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
