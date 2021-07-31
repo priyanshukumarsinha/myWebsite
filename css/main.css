@@ -8,8 +8,12 @@ body a {
   text-decoration: none;
 }
 
-body div.container nav {
+body div.container {
   font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+}
+
+body div.container nav {
   font-size: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,5 +65,55 @@ body div.container nav ul {
 
 body div.container nav ul #logo {
   color: black;
+}
+
+body div.container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body div.container header div {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body div.container header section {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+body div.container header section span {
+  font-size: 30px;
+}
+
+body div.container header section span#tagline {
+  font-size: 15px;
+}
+
+body div.container header div.content {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body div.container header div.image {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: right;
+}
+
+body div.container header div.image img#profile {
+  height: 250px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -10,6 +10,8 @@ icon = hamDiv.querySelector('i');
 
 hamDiv.style.display = 'none';
 
+document.querySelector("header").querySelector('div').style.height = height -100+'px';
+
 function setLogoMargin(width){
     logo.style.width  = (width-300)/2 +'px';
     links.style.width  = (width - (width-300)/2) +'px';
@@ -40,7 +42,7 @@ function setContainerPadding(width){
         Vpadding = 25;
         showHam();
     }
-    nav.style.padding= Vpadding+"px "+Hpadding+"px "+Vpadding+"px "+Hpadding+"px ";
+    container.style.padding= Vpadding+"px "+Hpadding+"px "+Vpadding+"px "+Hpadding+"px ";
 }
 function ham(cls){
     //show cross

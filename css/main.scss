@@ -10,7 +10,11 @@ body{
         
     }
     div.container{
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 20px;
+
         nav{
+            // padding-bottom: 50px;
             // overflow: hidden;
             // background-color: #333;
             // position: fixed; /* Set the navbar to fixed position */
@@ -23,7 +27,7 @@ body{
                 color: #112D4E;
 
             }
-            font-family: 'Fira Sans', sans-serif;
+            
             font-size: 20px;
             display: flex;
             div.logo{
@@ -55,6 +59,42 @@ body{
                     color: black;
                 }
             }
+        }
+
+        header{
+            display: flex;
+            div{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            section{
+                margin-top: auto;
+                margin-bottom: auto;
+                span{
+                    font-size: 30px;
+
+                }
+                span#tagline{
+                    font-size: 15px;
+
+                }
+            }
+            div.content{
+                align-items: flex-start;
+            }
+            div.image{
+                align-items: flex-end;
+
+                text-align: right;
+
+                img#profile{
+                    height: 250px;
+                }
+            }
+
+
         }
     }
 }
