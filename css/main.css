@@ -172,6 +172,9 @@ body .section2 div.content div div {
 }
 
 @media only screen and (max-width: 781px) {
+  div.section2 div.content span {
+    font-size: 20px;
+  }
   div.section2 div.content div {
     display: block;
   }
