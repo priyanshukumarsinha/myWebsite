@@ -75,6 +75,11 @@ function showHam(){
     li = links.querySelector('ul').querySelectorAll('li')
     DP.style.height = '180px'
     headerDiv.style.display = 'block';
+    divList = headerDiv.querySelectorAll('div');
+    for (let i = 0; i < divList.length; i++) {
+        divList[i].style.width= '100%'
+        
+    }
     for (let i = 0; i < li.length; i++) {
         li[i].style.paddingTop = '20px'
         
