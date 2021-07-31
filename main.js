@@ -86,7 +86,7 @@ function showHam(){
     spanList[1].style.fontSize = '10px';
 
     divList[1].style.alignItems = 'center'
-    document.querySelector('.container-1').style.height = height+'px';
+    document.querySelector('.container-1').style.height = height-150+'px';
     document.querySelector('.container-1').style.display = 'flex'
     document.querySelector('.container-1').style.flexDirection = 'column'
     document.querySelector('.container-1').style.justifyContent = 'space-around'
