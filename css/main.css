@@ -231,6 +231,8 @@ footer {
   }
   div.section4 {
     margin-top: 50px;
+  }
+  div.section4 div.content {
     font-size: 15px;
   }
   div.section4 span {
