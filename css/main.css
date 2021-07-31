@@ -232,5 +232,8 @@ footer {
   div.section4 span {
     font-size: 20px;
   }
+  div.section4 img {
+    height: 150px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
