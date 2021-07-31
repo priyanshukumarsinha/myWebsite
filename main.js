@@ -76,10 +76,16 @@ function showHam(){
     DP.style.height = '180px'
     headerDiv.style.flexDirection = 'column-reverse';
     divList = headerDiv.querySelectorAll('div');
-    divList[0].querySelector('section').style.marginTop = '0';
+    sectionDiv = divList[0].querySelector('section');
+    sectionDiv.style.marginTop = '0';
+    spanList = sectionDiv.querySelectorAll('span')
+    spanList[0].style.fontSize = '20px';
+    spanList[1].style.fontSize = '10px';
+
 
     for (let i = 0; i < divList.length; i++) {
         divList[i].style.width= '100%'
+
 
         
     }
