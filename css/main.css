@@ -21,11 +21,11 @@ body div.container nav {
 }
 
 body div.container nav a {
-  color: #3F72AF;
+  color: #aaa6f6;
 }
 
 body div.container nav a:hover {
-  color: #112D4E;
+  color: #3F3D56;
 }
 
 body div.container nav div.logo {
@@ -36,7 +36,7 @@ body div.container nav div.logo {
 }
 
 body div.container nav div.logo a {
-  color: #112D4E;
+  color: #3F3D56;
   font-weight: bold;
 }
 
@@ -94,10 +94,15 @@ body div.container header section {
 
 body div.container header section span {
   font-size: 30px;
+  color: #2F2E41;
 }
 
 body div.container header section span#tagline {
   font-size: 15px;
+}
+
+body div.container header i {
+  color: #2F2E41;
 }
 
 body div.container header div.content {

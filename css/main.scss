@@ -21,10 +21,10 @@ body{
             // top: 0; /* Position the navbar at the top of the page */
             // width: 100%; /* Full width */
             a{
-                color: #3F72AF;
+                color: #aaa6f6;
             }
             a:hover{
-                color: #112D4E;
+                color: #3F3D56;
 
             }
             
@@ -33,7 +33,7 @@ body{
             div.logo{
                 display: flex;
                 a{
-                    color: #112D4E;
+                    color: #3F3D56;
                     font-weight: bold;
                 }
 
@@ -74,12 +74,17 @@ body{
                 margin-bottom: auto;
                 span{
                     font-size: 30px;
+                    color: #2F2E41;
 
                 }
                 span#tagline{
                     font-size: 15px;
 
                 }
+            }
+            i{
+                color: #2F2E41;
+
             }
             div.content{
                 align-items: flex-start;
