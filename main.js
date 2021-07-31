@@ -79,8 +79,13 @@ function showHam(){
     sectionDiv = divList[0].querySelector('section');
     sectionDiv.style.marginTop = '0';
     spanList = sectionDiv.querySelectorAll('span')
+    sectionDiv.style.textAlign = 'center';
+    sectionDiv.style.width = '100%';
+
     spanList[0].style.fontSize = '20px';
     spanList[1].style.fontSize = '10px';
+
+    divList[1].style.alignItems = 'center'
 
 
     for (let i = 0; i < divList.length; i++) {
