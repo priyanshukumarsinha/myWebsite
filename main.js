@@ -5,7 +5,7 @@ nav = document.querySelector("nav");
 logo = document.querySelector(".logo");
 container = document.querySelector(".container");
 links = document.querySelector(".links");
-icon = document.querySelector(".ham").querySelector('span');
+icon = document.querySelector(".ham").querySelector('i');
 
 
 function setLogoMargin(width){
@@ -41,16 +41,17 @@ function setContainerPadding(width){
     }
     nav.style.padding= Vpadding+"px "+Hpadding+"px "+Vpadding+"px "+Hpadding+"px ";
 }
-function ham(){
+function ham(cls){
     //show cross
-    
-    if (icon.innerText === 'ham'){
+    console.log(cls)
+    if (cls === 'fas fa-bars'){
         links.style.display = '';
-        icon.innerText = 'close';
+        icon.className = 'fas fa-times';
     }
     else{
         links.style.display = 'none';
-        icon.innerText = 'ham';
+        icon.className = 'fas fa-bars';
+
 
     }
 }

@@ -27,6 +27,11 @@ body div.container nav div.ham {
   margin-left: auto;
 }
 
+body div.container nav div.ham img {
+  height: 20px;
+  width: 20px;
+}
+
 body div.container nav div.links {
   width: 50%;
 }
