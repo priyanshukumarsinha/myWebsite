@@ -9,14 +9,6 @@ body a {
 }
 
 body div.container nav {
-  overflow: hidden;
-  background-color: white;
-  position: fixed;
-  /* Set the navbar to fixed position */
-  top: 0;
-  /* Position the navbar at the top of the page */
-  width: 100%;
-  /* Full width */
   font-family: 'Fira Sans', sans-serif;
   font-size: 20px;
   display: -webkit-box;
