@@ -11,6 +11,17 @@ body a {
 body div.container nav {
   font-family: 'Fira Sans', sans-serif;
   font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body div.container nav div.logo {
+  width: 50%;
+}
+
+body div.container nav div.links {
+  width: 50%;
 }
 
 body div.container nav ul {

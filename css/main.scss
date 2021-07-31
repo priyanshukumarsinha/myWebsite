@@ -13,6 +13,13 @@ body{
         nav{
             font-family: 'Fira Sans', sans-serif;
             font-size: 20px;
+            display: flex;
+            div.logo{
+                width: 50%;
+            }
+            div.links{
+                width: 50%;
+            }
             // border: solid 1px black;
             // padding: 50px 150px 50px 150px;
             ul{
