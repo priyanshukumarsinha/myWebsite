@@ -95,7 +95,7 @@ function showHam(){
 
     
     paraList = section1Div.querySelectorAll('p')
-    section1Div.querySelector('span').style.fontSize = '20px'
+    section1Div.querySelector('span').style.fontSize = '23px'
     for (let i = 0; i < paraList.length; i++) {
         paraList[i].style.fontSize = '14px'
     }
