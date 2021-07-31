@@ -154,9 +154,7 @@ body .section2 span {
 }
 
 body .section2 div.content div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   width: 100%;
 }
 
