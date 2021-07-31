@@ -10,6 +10,7 @@ body a {
 
 body div.container nav {
   overflow: hidden;
+  background-color: white;
   position: fixed;
   /* Set the navbar to fixed position */
   top: 0;
