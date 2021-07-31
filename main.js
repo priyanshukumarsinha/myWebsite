@@ -7,7 +7,7 @@ container = document.querySelector(".container");
 links = document.querySelector(".links");
 hamDiv = document.querySelector(".ham")
 icon = hamDiv.querySelector('i');
-
+DP = document.querySelector("#profile")
 hamDiv.style.display = 'none';
 
 document.querySelector("header").querySelector('div').style.height = height -100+'px';
@@ -72,6 +72,7 @@ function showHam(){
     links.style.width = '100%';
     links.style.textAlign = 'center';
     li = links.querySelector('ul').querySelectorAll('li')
+    DP.style.height = '180px'
     for (let i = 0; i < li.length; i++) {
         li[i].style.paddingTop = '20px'
         
