@@ -89,20 +89,23 @@ function showHam(){
 
     divList[1].style.alignItems = 'center'
     sectionDiv.style.paddingTop = '30px'
-    // section2DivList = section2Div.querySelectorAll('div.content > div')
-    // section2DivChildList = section2Div.querySelectorAll('div.content > div > div')
+    section2DivList = section2Div.querySelectorAll('div.content > div')
+    section2DivChildList = section2Div.querySelectorAll('div.content > div > div')
 
-    // for (let i = 0; i < section2DivList.length; i++) {
-    //     section2DivList[i].style.display = 'block'
+    for (let i = 0; i < section2DivList.length; i++) {
+        section2DivList[i].style.display = 'block'
 
-    //     for (let j = 0; j < section2DivChildList.length; j++) {
-    //         section2DivChildList[j].style.width = '90%'
-    //         section2DivChildList[j].style.marginLeft = '0'
+        for (let j = 0; j < section2DivChildList.length; j++) {
+            section2DivChildList[j].style.width = '85%'
+            section2DivChildList[j].style.marginLeft = '0'
+
+            section2DivChildList[j].style.fontSize = '12px'
 
 
-    //     }
 
-    // }
+        }
+
+    }
     
     paraList = section1Div.querySelectorAll('p')
     section1Div.querySelector('span').style.fontSize = '20px'
