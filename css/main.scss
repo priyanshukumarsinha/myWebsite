@@ -155,6 +155,7 @@ body{
     }
     div.section3{
         span.title{
+            display: inline-block;
             font-size: 32px;
             color: #3F3D56;
             
@@ -164,11 +165,12 @@ body{
 }
 
 span.mySkills{
+    display: inline-block;
     background-color: #aaa6f6;
     border-radius: 10px;
     color: #3F3D56;
     padding: 10px 20px;
-    margin: 20px 20px 20px 0px;
+    margin: 5px 20px 5px 0px;
 
 }
 
