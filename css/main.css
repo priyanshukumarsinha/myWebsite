@@ -171,7 +171,7 @@ body .section2 div.content div div {
   border-radius: 7px;
 }
 
-body div.section3 span.title {
+span.title {
   display: inline-block;
   font-size: 32px;
   color: #3F3D56;
@@ -199,7 +199,7 @@ span.mySkills {
     margin-left: 0;
     width: 86%;
   }
-  div.section3 span.title {
+  div.section3 span {
     font-size: 20px;
   }
   div.section3 span.mySkills {

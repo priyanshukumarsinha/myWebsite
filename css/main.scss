@@ -153,17 +153,15 @@ body{
         }
         
     }
-    div.section3{
-        span.title{
-            display: inline-block;
-            font-size: 32px;
-            color: #3F3D56;
-            
-            font-weight: bold;
-        }
-    }
+    
 }
-
+span.title{
+    display: inline-block;
+    font-size: 32px;
+    color: #3F3D56;
+    
+    font-weight: bold;
+}
 span.mySkills{
     display: inline-block;
     background-color: #aaa6f6;
@@ -192,7 +190,7 @@ span.mySkills{
         }
     }
     div.section3{
-        span.title{
+        span{
             font-size: 20px;
         }
         span.mySkills{
