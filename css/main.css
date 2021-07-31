@@ -142,4 +142,14 @@ body .section1 p {
 body .section1 div.image {
   margin-bottom: 50px;
 }
+
+body .section2 {
+  margin-top: 50px;
+}
+
+body .section2 span {
+  font-size: 32px;
+  color: #3F3D56;
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */
