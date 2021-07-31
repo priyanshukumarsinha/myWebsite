@@ -213,7 +213,7 @@ footer {
 
 @media only screen and (max-width: 781px) {
   div.section2 div.content span {
-    font-size: 20px;
+    font-size: 23px;
   }
   div.section2 div.content div {
     display: block;
@@ -224,7 +224,7 @@ footer {
     width: 86%;
   }
   div.section3 span {
-    font-size: 20px;
+    font-size: 23px;
   }
   div.section3 span.mySkills {
     font-size: 15px;
@@ -233,7 +233,7 @@ footer {
     margin-top: 50px;
   }
   div.section4 span {
-    font-size: 20px;
+    font-size: 23px;
   }
   div.section4 img {
     height: 150px;
