@@ -170,4 +170,14 @@ body .section2 div.content div div {
   border: solid 1px black;
   border-radius: 7px;
 }
+
+@media only screen and (max-width: 781px) {
+  div.section2 div.content div {
+    display: block;
+  }
+  div.section2 div.content div div {
+    font-size: 12px;
+    width: 88%;
+  }
+}
 /*# sourceMappingURL=main.css.map */

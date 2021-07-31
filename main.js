@@ -38,24 +38,6 @@ function setContainerPadding(width){
     }
     else if (width<= 830  & width>500){
         Hpadding = 50;
-
-        section2DivList = section2Div.querySelectorAll('div.content > div')
-        section2DivChildList = section2Div.querySelectorAll('div.content > div > div')
-    
-        for (let i = 0; i < section2DivList.length; i++) {
-            section2DivList[i].style.display = 'block'
-    
-            for (let j = 0; j < section2DivChildList.length; j++) {
-                // section2DivChildList[j].style.width = width-145 + 'px'
-                section2DivChildList[j].style.marginLeft = '0'
-    
-                section2DivChildList[j].style.fontSize = '15px'
-    
-    
-    
-            }
-    
-        }
     }
     else if (width<=500){
         Hpadding = 25;
@@ -110,20 +92,7 @@ function showHam(){
     section2DivList = section2Div.querySelectorAll('div.content > div')
     section2DivChildList = section2Div.querySelectorAll('div.content > div > div')
 
-    for (let i = 0; i < section2DivList.length; i++) {
-        section2DivList[i].style.display = 'block'
 
-        for (let j = 0; j < section2DivChildList.length; j++) {
-            section2DivChildList[j].style.width = '85%'
-            section2DivChildList[j].style.marginLeft = '0'
-
-            section2DivChildList[j].style.fontSize = '12px'
-
-
-
-        }
-
-    }
     
     paraList = section1Div.querySelectorAll('p')
     section1Div.querySelector('span').style.fontSize = '20px'

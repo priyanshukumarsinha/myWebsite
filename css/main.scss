@@ -116,11 +116,11 @@ body{
             font-size: 17px;
             text-align: justify;
         }
-        div.content{
-            // text-align: right;
+        // div.content{
+        //     // text-align: right;
 
-            // width: 65%;
-        }
+        //     // width: 65%;
+        // }
         div.image{
             margin-bottom: 50px;
             // margin-right: auto;
@@ -155,3 +155,18 @@ body{
     }
 }
 
+@media only screen and (max-width: 781px) {
+
+    div.section2{
+        div.content{
+            div{
+               display: block;
+               div{
+                font-size: 12px;
+
+                   width: 88%;
+               }
+            }
+        }
+    }
+  }
