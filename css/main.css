@@ -199,5 +199,11 @@ span.mySkills {
     margin-left: 0;
     width: 86%;
   }
+  div.section3 span.title {
+    font-size: 20px;
+  }
+  div.section3 span.mySkills {
+    font-size: 15px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
