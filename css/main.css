@@ -121,4 +121,8 @@ body div.container header div.image {
 body div.container header div.image img#profile {
   height: 250px;
 }
+
+body section {
+  padding-top: 20px;
+}
 /*# sourceMappingURL=main.css.map */
