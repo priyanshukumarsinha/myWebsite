@@ -3,6 +3,7 @@ height = window.innerHeight;
 window.onresize = changeVariables;
 nav = document.querySelector("nav");
 logo = document.querySelector(".logo");
+container = document.querySelector(".container");
 links = document.querySelector(".links");
 
 
@@ -32,15 +33,27 @@ function setContainerPadding(width){
         Hpadding = 50;
     }
     else if (width<=500){
-        Hpadding = 20;
-        Vpadding = 20;
+        Hpadding = 25;
+        Vpadding = 25;
         showHam()
     }
     nav.style.padding= Vpadding+"px "+Hpadding+"px "+Vpadding+"px "+Hpadding+"px ";
 }
 
 function showHam(){
-    // links.style.display = 'none';
+    // links.style.display = 'inline';
+    links.querySelector('ul').style.display = 'inline';  
+    container.style.position = 'relative';
+    nav.style.display = 'inline-block';
+    nav.style.width = '100%';
+    links.style.width = '100%';
+    links.style.textAlign = 'center';
+    li = links.querySelector('ul').querySelectorAll('li')
+    for (let i = 0; i < li.length; i++) {
+        li[i].style.paddingTop = '20px'
+        
+    }
+    
 }
 
 // 1366 695
