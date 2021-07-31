@@ -5,8 +5,10 @@ nav = document.querySelector("nav");
 logo = document.querySelector(".logo");
 container = document.querySelector(".container");
 links = document.querySelector(".links");
-icon = document.querySelector(".ham").querySelector('i');
+hamDiv = document.querySelector(".ham")
+icon = hamDiv.querySelector('i');
 
+hamDiv.style.display = 'none';
 
 function setLogoMargin(width){
     logo.style.width  = (width-300)/2 +'px';
@@ -36,8 +38,7 @@ function setContainerPadding(width){
     else if (width<=500){
         Hpadding = 25;
         Vpadding = 25;
-        
-        showHam()
+        showHam();
     }
     nav.style.padding= Vpadding+"px "+Hpadding+"px "+Vpadding+"px "+Hpadding+"px ";
 }
@@ -59,6 +60,7 @@ function closeHam(){
     links.style.display = '';
 }
 function showHam(){
+    hamDiv.style.display = '';
     links.style.display = 'none';
     links.querySelector('ul').style.display = 'inline';  
     container.style.position = 'relative';

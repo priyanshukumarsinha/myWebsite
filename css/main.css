@@ -23,6 +23,11 @@ body div.container nav div.logo {
   width: 50%;
 }
 
+body div.container nav div.logo a {
+  color: black;
+  font-weight: bold;
+}
+
 body div.container nav div.ham {
   margin-left: auto;
 }

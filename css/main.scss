@@ -16,7 +16,10 @@ body{
             display: flex;
             div.logo{
                 display: flex;
-                
+                a{
+                    color: black;
+                    font-weight: bold;
+                }
 
                 width: 50%;
             }
