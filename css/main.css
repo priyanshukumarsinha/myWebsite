@@ -229,6 +229,9 @@ footer {
   div.section3 span.mySkills {
     font-size: 15px;
   }
+  div.section4 {
+    margin-top: 50px;
+  }
   div.section4 span {
     font-size: 20px;
   }
