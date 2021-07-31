@@ -11,6 +11,7 @@ headerDiv = document.querySelector("header");
 DP = document.querySelector("#profile")
 hamDiv.style.display = 'none';
 section1Div = document.querySelector(".section1")
+section2Div = document.querySelector(".section2")
 headerDiv.querySelector('div').style.height = height -100+'px';
 
 function setLogoMargin(width){
@@ -88,6 +89,21 @@ function showHam(){
 
     divList[1].style.alignItems = 'center'
     sectionDiv.style.paddingTop = '30px'
+    section2DivList = section2Div.querySelectorAll('div.content > div')
+    section2DivChildList = section2Div.querySelectorAll('div.content > div > div')
+
+    for (let i = 0; i < section2DivList.length; i++) {
+        section2DivList[i].style.display = 'block'
+
+        for (let j = 0; j < section2DivChildList.length; j++) {
+            section2DivChildList[j].style.width = '90%'
+            section2DivChildList[j].style.marginLeft = '0'
+
+
+        }
+
+    }
+    
     paraList = section1Div.querySelectorAll('p')
     section1Div.querySelector('span').style.fontSize = '20px'
     for (let i = 0; i < paraList.length; i++) {
