@@ -46,7 +46,7 @@ function setContainerPadding(width){
             section2DivList[i].style.display = 'block'
     
             for (let j = 0; j < section2DivChildList.length; j++) {
-                section2DivChildList[j].style.width = width-145 + 'px'
+                // section2DivChildList[j].style.width = width-145 + 'px'
                 section2DivChildList[j].style.marginLeft = '0'
     
                 section2DivChildList[j].style.fontSize = '15px'
