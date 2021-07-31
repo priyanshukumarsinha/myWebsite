@@ -171,6 +171,20 @@ body .section2 div.content div div {
   border-radius: 7px;
 }
 
+body div.section3 span.title {
+  font-size: 32px;
+  color: #3F3D56;
+  font-weight: bold;
+}
+
+span.mySkills {
+  background-color: #aaa6f6;
+  border-radius: 10px;
+  color: #3F3D56;
+  padding: 10px 20px;
+  margin: 20px 20px 20px 0px;
+}
+
 @media only screen and (max-width: 781px) {
   div.section2 div.content span {
     font-size: 20px;
