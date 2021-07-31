@@ -17,7 +17,14 @@ body div.container nav {
 }
 
 body div.container nav div.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 50%;
+}
+
+body div.container nav div.ham {
+  margin-left: auto;
 }
 
 body div.container nav div.links {

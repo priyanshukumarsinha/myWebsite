@@ -15,11 +15,18 @@ body{
             font-size: 20px;
             display: flex;
             div.logo{
+                display: flex;
+                
+
                 width: 50%;
+            }
+            div.ham{
+                margin-left: auto;
             }
             div.links{
                 width: 50%;
             }
+
             ul{
                 list-style: none;
                 display: flex;

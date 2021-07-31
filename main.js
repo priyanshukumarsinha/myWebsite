@@ -5,6 +5,7 @@ nav = document.querySelector("nav");
 logo = document.querySelector(".logo");
 container = document.querySelector(".container");
 links = document.querySelector(".links");
+icon = document.querySelector(".ham").querySelector('span');
 
 
 function setLogoMargin(width){
@@ -35,17 +36,34 @@ function setContainerPadding(width){
     else if (width<=500){
         Hpadding = 25;
         Vpadding = 25;
+        
         showHam()
     }
     nav.style.padding= Vpadding+"px "+Hpadding+"px "+Vpadding+"px "+Hpadding+"px ";
 }
+function ham(){
+    //show cross
+    
+    if (icon.innerText === 'ham'){
+        links.style.display = '';
+        icon.innerText = 'close';
+    }
+    else{
+        links.style.display = 'none';
+        icon.innerText = 'ham';
 
+    }
+}
+function closeHam(){
+    links.style.display = '';
+}
 function showHam(){
-    // links.style.display = 'inline';
+    links.style.display = 'none';
     links.querySelector('ul').style.display = 'inline';  
     container.style.position = 'relative';
     nav.style.display = 'inline-block';
     nav.style.width = '100%';
+    logo.style.width = '90%';
     links.style.width = '90%';
     links.style.textAlign = 'center';
     li = links.querySelector('ul').querySelectorAll('li')
