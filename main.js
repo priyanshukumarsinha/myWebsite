@@ -68,7 +68,7 @@ function showHam(){
     links.querySelector('ul').style.display = 'inline';  
     container.style.position = 'relative';
     nav.style.display = 'inline-block';
-    nav.style.width = '85%';
+    nav.style.width = '100%';
     logo.style.width = '100%';
     links.style.width = '100%';
     links.style.textAlign = 'center';
