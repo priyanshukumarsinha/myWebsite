@@ -93,6 +93,7 @@ body div.container header section {
 }
 
 body div.container header section span {
+  font-weight: bold;
   font-size: 30px;
   color: #2F2E41;
 }
