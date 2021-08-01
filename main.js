@@ -64,6 +64,7 @@ let currentTheme = 'light'
 function changeTheme(){
 
     if(currentTheme === 'light'){
+        let colour = 'rgb(177, 174, 174)'
         document.querySelector('body').style.backgroundColor = "rgb(29, 28, 42)"
         spanList = document.querySelectorAll('span')
         iconList = document.querySelectorAll('i')
@@ -77,17 +78,17 @@ function changeTheme(){
 
 
         for (let i = 0; i < spanList.length; i++) {
-            spanList[i].style.color = "white"
+            spanList[i].style.color = colour
         }
         for (let i = 0; i < iconList.length; i++) {
-            iconList[i].style.color = "white"
+            iconList[i].style.color = colour
         }
         for (let i = 0; i < paragraphList.length; i++) {
-            paragraphList[i].style.color = "white"
+            paragraphList[i].style.color = colour
         }
         for (let i = 0; i < divList.length; i++) {
-            divList[i].style.color = "white"
-            divList[i].style.borderColor = "white"
+            divList[i].style.color = colour
+            divList[i].style.borderColor = colour
         }
         for (let i = 0; i < linksList.length; i++) {
             linksList[i].style.color = "#716aec"
@@ -96,13 +97,15 @@ function changeTheme(){
             mySkillsList[i].style.color = "#3F3D56"
         }
         for (let i = 0; i < menuList.length; i++) {
-            menuList[i].style.color = "white"
+            menuList[i].style.color = colour
         }
         document.querySelector('meta[name="theme-color"]').setAttribute("content", '#3F3D56');
+        document.querySelector('svg').querySelector('.change').setAttribute('fill', 'rgb(177, 174, 174)');
 
         currentTheme = 'dark'
     }
     else{
+        
         document.querySelector('body').style.backgroundColor = "rgb(248, 248, 248)"
         spanList = document.querySelectorAll('span')
         iconList = document.querySelectorAll('i')
@@ -141,6 +144,8 @@ function changeTheme(){
         }
         currentTheme = 'light'
         document.querySelector('meta[name="theme-color"]').setAttribute("content", '#716aec');
+        document.querySelector('svg').querySelector('.change').setAttribute('fill', '#3F3D56');
+
 
     }
     

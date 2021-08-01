@@ -141,7 +141,14 @@ body .section1 p {
 }
 
 body .section1 div.image {
+  overflow: auto;
+  position: relative;
   margin-bottom: 50px;
+}
+
+body .section1 div.image svg {
+  position: absolute;
+  width: 500px;
 }
 
 body .section2 {
