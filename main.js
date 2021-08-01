@@ -134,7 +134,9 @@ function changeTheme(){
         for (let i = 0; i < mySkillsList.length; i++) {
             mySkillsList[i].style.color = "#3F3D56"
         }
-        for (let i = 0; i < menuList.length; i++) {
+        menuList[0].style.color = "#3F3D56"
+
+        for (let i = 1; i < menuList.length; i++) {
             menuList[i].style.color = "#716aec"
         }
         currentTheme = 'light'
