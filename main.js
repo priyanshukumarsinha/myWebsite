@@ -98,7 +98,7 @@ function changeTheme(){
         for (let i = 0; i < menuList.length; i++) {
             menuList[i].style.color = "white"
         }
-
+        document.querySelector('meta[name="theme-color"]').setAttribute("content", '#3F3D56');
 
         currentTheme = 'dark'
     }
@@ -140,6 +140,8 @@ function changeTheme(){
             menuList[i].style.color = "#716aec"
         }
         currentTheme = 'light'
+        document.querySelector('meta[name="theme-color"]').setAttribute("content", '#716aec');
+
     }
     
 }
