@@ -65,7 +65,7 @@ let currentTheme = 'light'
 function changeTheme(){
 
     if(currentTheme === 'light'){
-        let colour = 'rgb(177, 174, 174)'
+        let colour = 'rgb(206, 203, 203)'
         document.querySelector('body').style.backgroundColor = "rgb(29, 28, 42)"
         spanList = document.querySelectorAll('span')
         iconList = document.querySelectorAll('i')
@@ -101,7 +101,7 @@ function changeTheme(){
             menuList[i].style.color = colour
         }
         document.querySelector('meta[name="theme-color"]').setAttribute("content", '#3F3D56');
-        document.querySelector('svg').querySelector('.change').setAttribute('fill', 'rgb(177, 174, 174)');
+        document.querySelector('svg').querySelector('.change').setAttribute('fill', colour);
 
         currentTheme = 'dark'
     }
