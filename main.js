@@ -65,7 +65,7 @@ let currentTheme = 'light'
 function changeTheme(){
 
     if(currentTheme === 'light'){
-        let colour = 'rgb(206, 203, 203)'
+        let colour = 'rgb(224, 223, 223)'
         document.querySelector('body').style.backgroundColor = "rgb(29, 28, 42)"
         spanList = document.querySelectorAll('span')
         iconList = document.querySelectorAll('i')
