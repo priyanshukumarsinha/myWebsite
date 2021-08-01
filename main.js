@@ -76,6 +76,7 @@ function changeTheme(){
         let logoLink = logo.querySelector('span')
         let linksList1 = links.querySelector('a')
         let menuList = document.querySelectorAll('.menu')
+        let svgList = document.querySelector('svg').querySelectorAll('.change')
 
 
         for (let i = 0; i < spanList.length; i++) {
@@ -100,8 +101,10 @@ function changeTheme(){
         for (let i = 0; i < menuList.length; i++) {
             menuList[i].style.color = colour
         }
+        for (let i = 0; i < svgList.length; i++) {
+            svgList[i].setAttribute('fill', colour)
+        }
         document.querySelector('meta[name="theme-color"]').setAttribute("content", '#3F3D56');
-        document.querySelector('svg').querySelector('.change').setAttribute('fill', colour);
 
         currentTheme = 'dark'
     }
@@ -117,6 +120,8 @@ function changeTheme(){
         let logoLink = logo.querySelector('span')
         let linksList1 = links.querySelector('a')
         let menuList = document.querySelectorAll('.menu')
+        let svgList = document.querySelector('svg').querySelectorAll('.change')
+
 
 
         for (let i = 0; i < spanList.length; i++) {
@@ -143,9 +148,11 @@ function changeTheme(){
         for (let i = 1; i < menuList.length; i++) {
             menuList[i].style.color = "#716aec"
         }
+        for (let i = 0; i < svgList.length; i++) {
+            svgList[i].setAttribute('fill', '#3F3D56')
+        }
         currentTheme = 'light'
         document.querySelector('meta[name="theme-color"]').setAttribute("content", '#716aec');
-        document.querySelector('svg').querySelector('.change').setAttribute('fill', '#3F3D56');
 
 
     }
