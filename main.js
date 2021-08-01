@@ -64,16 +64,17 @@ let currentTheme = 'light'
 function changeTheme(){
 
     if(currentTheme === 'light'){
-        document.querySelector('body').style.backgroundColor = "#20202a"
+        document.querySelector('body').style.backgroundColor = "rgb(29, 28, 42)"
         spanList = document.querySelectorAll('span')
         iconList = document.querySelectorAll('i')
         let paragraphList = document.querySelectorAll('p')
         let divList = document.querySelectorAll('div')
         let linksList = document.querySelectorAll('a')
         let mySkillsList = document.querySelectorAll('.mySkills')
+        let logoLink = logo.querySelector('span')
+        let linksList1 = links.querySelector('a')
+        let menuList = document.querySelectorAll('.menu')
 
-
-        
 
         for (let i = 0; i < spanList.length; i++) {
             spanList[i].style.color = "white"
@@ -94,11 +95,48 @@ function changeTheme(){
         for (let i = 0; i < mySkillsList.length; i++) {
             mySkillsList[i].style.color = "#3F3D56"
         }
+        for (let i = 0; i < menuList.length; i++) {
+            menuList[i].style.color = "white"
+        }
+
 
         currentTheme = 'dark'
     }
     else{
         document.querySelector('body').style.backgroundColor = "rgb(248, 248, 248)"
+        spanList = document.querySelectorAll('span')
+        iconList = document.querySelectorAll('i')
+        let paragraphList = document.querySelectorAll('p')
+        let divList = document.querySelectorAll('div')
+        let linksList = document.querySelectorAll('a')
+        let mySkillsList = document.querySelectorAll('.mySkills')
+        let logoLink = logo.querySelector('span')
+        let linksList1 = links.querySelector('a')
+        let menuList = document.querySelectorAll('.menu')
+
+
+        for (let i = 0; i < spanList.length; i++) {
+            spanList[i].style.color = "#3F3D56"
+        }
+        for (let i = 0; i < iconList.length; i++) {
+            iconList[i].style.color = "#2F2E41"
+        }
+        for (let i = 0; i < paragraphList.length; i++) {
+            paragraphList[i].style.color = "#2F2E41"
+        }
+        for (let i = 0; i < divList.length; i++) {
+            divList[i].style.color = "#2F2E41"
+            divList[i].style.borderColor = "#2F2E41"
+        }
+        for (let i = 0; i < linksList.length; i++) {
+            linksList[i].style.color = "#551A88"
+        }
+        for (let i = 0; i < mySkillsList.length; i++) {
+            mySkillsList[i].style.color = "#3F3D56"
+        }
+        for (let i = 0; i < menuList.length; i++) {
+            menuList[i].style.color = "#716aec"
+        }
         currentTheme = 'light'
     }
     
