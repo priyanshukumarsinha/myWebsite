@@ -42,6 +42,7 @@ function setContainerPadding(width){
     else if (width<=500){
         Hpadding = 25;
         Vpadding = 25;
+        document.querySelector('svg').setAttribute('width','200')
         showHam();
     }
     container.style.padding= Vpadding+"px "+Hpadding+"px "+Vpadding+"px "+Hpadding+"px ";
