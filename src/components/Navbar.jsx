@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { CiMenuFries } from "react-icons/ci";
 
 const Navbar = () => {
   return (
@@ -13,8 +14,8 @@ const Navbar = () => {
         <FaGithub className="hover:text-gray-200 transition-all duration-300 ease-in-out " />
         <FaInstagram className="hover:text-gray-200 transition-all duration-300 ease-in-out " />
       </div>
-      <div>
-        <ul className="flex gap-7 font-light">
+      <div className="hidden lg:flex">
+        <ul className="flex gap-7 font-lighte">
           <li className="hover:text-gray-200 transition-all duration-300 ease-in-out text-[#7f7de4] text-sm">
             Home
           </li>
@@ -40,6 +41,9 @@ const Navbar = () => {
             Volunteering
           </li>
         </ul>
+      </div>
+      <div className="flex lg:hidden">
+        <CiMenuFries className="text-white text-2xl cursor-pointer" />
       </div>
     </div>
   );
