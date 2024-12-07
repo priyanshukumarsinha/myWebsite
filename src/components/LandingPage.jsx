@@ -4,8 +4,8 @@ import { BackgroundBeamsWithCollision } from "./ui/background-beams-with-colliss
 
 const LandingPage = () => {
   return (
-    <div className="App relative">
-      <div className="sticky top-0 left-0">
+    <div className="App">
+      <div className="fixed top-0 left-0 w-full z-50">
         <Navbar />
       </div>
       <div className="bg-black  z-0">
@@ -24,10 +24,6 @@ const LandingPage = () => {
             </p>
           </div>
         </BackgroundBeamsWithCollision>
-      </div>
-
-      <div className="h-screen dark:bg-black bg-black  dark:bg-grid-white/[0.2] bg-grid-white/[0.2]">
-        {/* <Card /> */}
       </div>
     </div>
   );
